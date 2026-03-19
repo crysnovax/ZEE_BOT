@@ -1,0 +1,25 @@
+{
+  "name": "zee-bot",
+  "version": "1.0.0",
+  "description": "Professional WhatsApp Bot powered by CRYSNOVA AI Technology",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "crysnova", "zee"],
+  "author": "CRYSNOVA",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "pino": "^9.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
